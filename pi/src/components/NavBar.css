@@ -1,0 +1,14 @@
+.botões{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    z-index: 1000;
+    position: absolute;
+}
+
+.botões	a{
+    cursor: pointer;
+    margin: 0 50px;
+}

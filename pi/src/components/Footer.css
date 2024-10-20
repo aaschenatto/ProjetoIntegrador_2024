@@ -1,0 +1,9 @@
+.footerContainer {
+    display: flex;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 30px;
+    margin-top: auto;
+}
