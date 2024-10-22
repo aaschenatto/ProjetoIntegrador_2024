@@ -1,9 +1,24 @@
 .footerContainer {
     display: flex;
+    margin-top: 40px;
 }
 
 .logo {
     width: 100px;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-top: auto;
 }
+
+.newsletter{
+    display: flex;
+    justify-content: center;
+}
+.titulonews{
+    font-size: 20px;
+    color: white;
+}
+
+input,button{
+    max-height: 30px;
+}
+

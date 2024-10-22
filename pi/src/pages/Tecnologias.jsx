@@ -3,6 +3,7 @@ import './Tecnologias.css'
 function Tecnologias() {
   return (
     <>
+    
       <div className='banner'>
         <img src='../../public/bannerInicio.jpg' />
       </div>
@@ -15,7 +16,26 @@ function Tecnologias() {
         <p className='txt1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum.</p>
       </div>
 
-      
+      <p className='titulo1'>VÍDEOS RELACIONADOS AS TECNOLOGIAS</p>
+
+      <div className='div1'>
+        <img className='img1' src='../../public/bannerInicio.jpg' />
+        <p className='minititulo'>Titulo U</p>
+        <p className='txt2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum.</p>
+      </div>
+
+      <div className='div1'>
+        <p className='minititulo'>Titulo W</p>
+        <p className='txt1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum.</p>
+        <img className='img1' src='../../public/bannerInicio.jpg' />
+      </div>
+
+      <div className='div1'>
+        <img className='img1' src='../../public/bannerInicio.jpg' />
+        <p className='minititulo'>Titulo P</p>
+        <p className='txt2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum.</p>
+      </div>
+
     </>
   )
 }
