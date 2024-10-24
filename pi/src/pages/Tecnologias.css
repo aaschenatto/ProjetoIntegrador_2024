@@ -9,23 +9,25 @@ h1 {
     margin-top: 50px;
 }
 
-.img1{
-    height: 250px;
-    width: 250px;
-}
-
-.minititulo{
-    margin-left: 50px;
-    font-size: 25px;
-    color: white;
-    float: right;
-}
+/* primeira div: itens da linha do tempo de tecnologias */
 
 .div1{
     width: 100%;
     display: flex;
     margin-top: 40px;
     justify-content: center;
+}
+
+.img1{
+    height: 330px;
+    width: 330px;
+}
+
+.minititulo1{
+    margin-left: 55px;
+    font-size: 25px;
+    color: white;
+    float: right;
 }
 
 .txt1{
@@ -37,6 +39,27 @@ h1 {
     margin-left: -130px;
 }
 
+/* segunda div: videos relacionados as tecnologias imgs a esquerda */
+
+.div2{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.img2{
+    height: 330px;
+    width: 330px;
+}
+
+.minititulo2{
+    margin-left: 50px;
+    font-size: 25px;
+    color: white;
+    float: right;
+}
+
 .txt2{
     color: white;
     font-size: 20px;
@@ -46,3 +69,102 @@ h1 {
     margin-left: -85px;
 }
 
+/* terceira div: videos relacionados as tecnologias imgs a direita */
+
+.div3{
+
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    padding-left: 300px;
+}
+
+.img3{
+    height: 330px;
+    width: 330px;
+    margin-left: 30px;
+}
+
+.minititulo3{
+    font-size: 25px;
+    color: white;
+    float: right;
+    margin-left: -300px;
+}
+
+.txt3{
+    color: white;
+    font-size: 20px;
+    width: 400px;
+    margin-top: 50px;
+    float: right;
+    margin-left: -90px;
+}
+
+/* fim das divs terriveis =) =)*/
+
+.divlinha{
+    width: 100%;
+    text-align: center;
+}
+
+.linha{
+    width: 1200px;
+    height: 2px;
+}
+
+/* estilo do carrossel */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container-slider {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .container-images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+  }
+  
+  .slider {
+    opacity: 0;
+    transition: opacity .2s;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .on {
+    opacity: 1;
+  }
+  
+  #prev-button, #next-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  #prev-button img, #next-button img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #prev-button {
+    transform: rotate(180deg);
+  }
+
+  /* fim do estilo do carrossel */
