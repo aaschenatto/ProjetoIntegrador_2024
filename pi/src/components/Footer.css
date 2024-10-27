@@ -1,6 +1,6 @@
 .footerContainer {
     display: flex;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .logo {
@@ -9,16 +9,64 @@
     margin-top: auto;
 }
 
+/* estilo conteudo newsletter */
+
 .newsletter{
-    display: flex;
     justify-content: center;
+    margin-left: 240px;
 }
 .titulonews{
     font-size: 20px;
     color: white;
+    font-weight: bold;
+    text-align: center;
 }
 
-input,button{
-    max-height: 30px;
+input{
+    width: 300px;
+    height: 23px;
+    border-width: 5px;
+    border-color: rgb(235, 223, 223);
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 2px;
+    cursor: auto;
 }
 
+button{
+    display: block;
+    width: 90px;
+    height: 23px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 190px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* fim do estilo conteudo newsletter */
+
+.redes0{
+    margin-left: 175px;
+}
+
+.redes1{
+    display: flex;
+    margin-left: 54px;
+}
+
+.redes{
+    display: flex;
+    margin-top: 20px;
+}
+
+.nome{
+    font-size: 25px;
+    color: white;
+}
+
+.logoRede{
+    width: 35px;
+    height: 35px;
+    margin-left: 12px;
+}

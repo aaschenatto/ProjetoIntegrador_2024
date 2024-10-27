@@ -14,6 +14,16 @@ function Footer() {
           <input placeholder='E-mail...'></input>
           <button>Enviar</button>
         </div>
+      <div className='redes0'>
+        <div className='redes1'>
+          <p  className='nome'>@nossoInsta</p>
+          <img className='logoRede' src='../../public/bannerInicio.jpg'/>
+        </div>
+        <div className='redes'>
+          <p className='nome'>email@gmail.com</p>
+          <img className='logoRede' src='../../public/bannerInicio.jpg'/>
+        </div>
+      </div>
 
       </div>
 
