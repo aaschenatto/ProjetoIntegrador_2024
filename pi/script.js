@@ -38,3 +38,7 @@ btnNext.addEventListener('click', nextSlider)
 btnPrev.addEventListener('click', prevSlider)
 
 // fim do cod carrosel//
+
+function teste() {
+    console.log("esta certo!")
+}
