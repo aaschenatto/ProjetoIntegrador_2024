@@ -59,3 +59,4 @@ function Tecnologias() {
 }
 
 export default Tecnologias
+
