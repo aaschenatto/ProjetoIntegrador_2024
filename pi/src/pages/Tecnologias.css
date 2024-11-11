@@ -10,64 +10,26 @@ h1 {
     margin-top: 50px;
 }
 
-/* primeira div: itens da linha do tempo de tecnologias */
 
-.div1{
-    width: 100%;
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
-}
-
-.img1{
-    height: 330px;
-    width: 330px;
-}
-
-.minititulo1{
-    margin-left: 55px;
-    font-size: 25px;
-    color: white;
-    float: right;
-}
-
-.txt1{
-    color: white;
-    font-size: 20px;
-    width: 400px;
-    margin-top: 50px;
-    float: right;
-    margin-left: -130px;
-}
 
 /* segunda div: videos relacionados as tecnologias imgs a esquerda */
 
-.div2{
-    width: 100%;
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
-}
-
-.img2{
+.teste{
     height: 330px;
     width: 330px;
+    margin-left: 150px;
 }
 
-.minititulo2{
-    margin-left: 50px;
+.mini{
     font-size: 25px;
     color: white;
-    float: right;
 }
 
-.txt2{
+.teste1{
     color: white;
     font-size: 20px;
-    width: 400px;
-    margin-top: 50px;
-    float: right;
-    margin-left: -85px;
+    width: 350px;
+
 }
 
 /* terceira div: videos relacionados as tecnologias imgs a direita */
