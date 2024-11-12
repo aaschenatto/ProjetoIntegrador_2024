@@ -23,6 +23,8 @@ h1 {
 .mini{
     font-size: 25px;
     color: white;
+    float: right;
+    margin-left: -300px;      
 }
 
 .teste1{
@@ -34,35 +36,66 @@ h1 {
 
 /* terceira div: videos relacionados as tecnologias imgs a direita */
 
-.div3{
-
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
-    padding-left: 300px;
+.divDireita{
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  padding-left: 300px;
 }
 
-.img3{
-    height: 330px;
-    width: 330px;
-    margin-left: 30px;
+.divEsquerda{
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  padding-left: 300px;
 }
 
-.minititulo3{
-    font-size: 25px;
-    color: white;
-    float: right;
-    margin-left: -300px;
+
+.divDireita img{
+  height: 330px;
+  width: 330px;
+  margin-left: -300px;
 }
 
-.txt3{
-    color: white;
-    font-size: 20px;
-    width: 400px;
-    margin-top: 50px;
-    float: right;
-    margin-left: -90px;
+.divEsquerda img{
+  height: 330px;
+  width: 330px;
+  margin-left: 30px;
 }
+
+.divDireita h2{
+  font-size: 25px;
+  color: white;
+  float: right;
+  margin-left: 30px;
+  width: 100px;
+}
+
+.divEsquerda h2{
+  font-size: 25px;
+  color: white;
+  float: right;
+  margin-left: -300px;
+}
+
+.divDireita p {
+  color: white;
+  font-size: 20px;
+  width: 400px;
+  margin-top: 50px;
+  float: right;
+  margin-left: -100px;
+}
+
+.divEsquerda p {
+  color: white;
+  font-size: 20px;
+  width: 400px;
+  margin-top: 50px;
+  float: right;
+  margin-left: -95px;
+}
+
 
 /* fim das divs terriveis =) =)*/
 
