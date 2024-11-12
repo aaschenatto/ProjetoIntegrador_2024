@@ -70,3 +70,9 @@ button{
     height: 35px;
     margin-left: 12px;
 }
+
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
