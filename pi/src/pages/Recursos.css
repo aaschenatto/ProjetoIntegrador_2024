@@ -1,0 +1,174 @@
+/* FOREGROUND COLOR VARIABLES */
+.elemento{
+    color: #fff;
+}
+
+.info{
+    color: #2be721;
+}
+
+* {
+    list-style:none;
+	box-sizing:border-box;
+}
+
+main {
+    text-align: center;
+}
+
+/* TYPOGRAPHY STYLES */
+p:last-child{
+	font-size:.8em;	
+}
+
+
+/* GRID CONTAINER STYLES */
+main{
+	margin:auto;
+	max-width:45em;
+	display:flex;
+}
+
+#grid-container{
+	flex-grow:1;
+	min-width:7em;	
+}
+
+.col-hidden{
+	display:none;	
+}
+
+
+/* GRID CELL */
+section{
+	height:5em;
+	background: black;
+	border:.125rem solid;
+	border-radius:0.25rem;	
+	line-height:1.25;
+	margin-bottom:.5em;
+	position:relative;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+
+span{
+	font-size:.75em;
+	position:absolute;
+	top:.3em;
+	left:.5em;	
+}
+
+
+/* FOOTER */
+footer{
+	font-size:.8em;
+	text-align:left;	
+	flex-basis:13.5rem;
+	margin:-.25em 0 0 1em;
+}
+
+ul{
+	display:flex;
+	flex-wrap:wrap;
+  position:sticky;
+  top:1em;
+}
+
+li{
+	flex-basis:100%;
+	line-height:1.25;
+	margin-bottom:1em;	
+}
+
+li:before{
+	content:' ';
+	display:inline-block;
+	width:1em;
+	height:1em;
+	border:.125em solid;
+	border-radius:.125rem;	
+	margin-right:.5em;
+	position:relative;
+	top:.25em;
+}
+
+
+@media only screen and (min-width:80em){
+	@supports (display:grid){
+		/* GRID CONTAINER STYLES */
+	
+		main{
+			max-width:130.5em;
+			display:block;
+		}
+		
+		#grid-container{
+			display:grid;
+			grid-template-columns:repeat(18, 5em);
+			grid-gap:.05em;	
+		}
+			
+		.col-span16{
+			grid-column:span 16;
+		}
+			
+		.col-span10{
+			grid-column:span 10;
+		}
+			
+		.col-span3{
+			grid-column:span 3;
+		}
+			
+		.col-hidden{
+			display:block;
+			visibility:hidden;
+		}
+			
+		
+		/* GRID CELL */
+		
+		section{
+			margin:0;
+		}
+			
+		section:hover{
+			transition:.2s;
+			transform:scale(1.5);
+			cursor:pointer;
+			z-index:2;
+		}
+		
+		
+		/* FOOTER */
+	
+		footer{
+			font-size:1em;
+			width:100%;
+			margin:2em 0;
+		}
+		
+		ul{
+			justify-content:center;
+		}
+		
+		li{
+			flex-basis:auto;
+			margin-bottom:0;	
+		}
+		
+		li + li{
+			margin-left:2em;	
+		}	
+	}
+}
+
+@media only screen and (min-width:102.5em){
+	/* GLOBAL STYLES */
+		
+		body{
+			font-size:.75em;	
+		}	
+}
