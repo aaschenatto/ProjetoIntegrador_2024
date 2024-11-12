@@ -17,11 +17,11 @@ function Footer() {
       <div className='redes0'>
         <div className='redes1'>
           <p  className='nome'>@nossoInsta</p>
-          <img className='logoRede' src='../../public/bannerInicio.jpg'/>
+          <img className='logoRede' src='../../public/insta.png'/>
         </div>
         <div className='redes'>
           <p className='nome'>email@gmail.com</p>
-          <img className='logoRede' src='../../public/bannerInicio.jpg'/>
+          <img className='logoRede' src='../../public/email.png'/>
         </div>
       </div>
 

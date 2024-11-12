@@ -1,6 +1,7 @@
 .footerContainer {
     display: flex;
     margin-top: 20px;
+    width: 100%;
 }
 
 .logo {
@@ -48,6 +49,7 @@ button{
 
 .redes0{
     margin-left: 175px;
+    float: right;
 }
 
 .redes1{
