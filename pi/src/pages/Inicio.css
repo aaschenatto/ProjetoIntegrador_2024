@@ -22,16 +22,16 @@ h1 {
 }
 
 .div1 p {
-    margin-top: 50px;
-    width: 500px;
+    margin-top: 10%;
+    width: 10%;
     color: #fff;
     position: absolute;
     float: left;
 }
 
 .div2 p {
-    margin-top: 50px;
-    width: 500px;
+    margin-top: 50%;
+    width: 15%;
     color: #fff;
     position: absolute;
     float: right;
@@ -40,15 +40,15 @@ h1 {
 
 .img1 {
     float: right;
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
     margin-right: 10%;
     margin-left: 60%;
 }
 
 .img2 {
     float: left;
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
     margin-left: 0%;
 }

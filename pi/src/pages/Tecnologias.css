@@ -4,10 +4,10 @@ h1 {
 }
 
 .titulo1{
-    font-size: 40px;
+    font-size: 3em;
     color: white;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 5%;
 }
 
 
@@ -15,13 +15,13 @@ h1 {
 /* segunda div: videos relacionados as tecnologias imgs a esquerda */
 
 .teste{
-    height: 330px;
-    width: 330px;
-    margin-left: 150px;
+    height: 50%;
+    width: 50%;
+    margin-left: 10%;
 }
 
 .mini{
-    font-size: 25px;
+    font-size: 10%;
     color: white;
     float: right;
     margin-left: -300px;      
@@ -38,41 +38,41 @@ h1 {
 
 .divDireita{
   display: flex;
-  margin-top: 40px;
+  margin-top: 5%;
   justify-content: center;
-  padding-left: 300px;
+  padding-left: 20%;
 }
 
 .divEsquerda{
   display: flex;
-  margin-top: 40px;
+  margin-top: 5%;
   justify-content: center;
-  padding-left: 300px;
+  padding-left: 20%;
 }
 
 
 .divDireita img{
-  height: 330px;
-  width: 330px;
+  height: 35%;
+  width: 35%;
   margin-left: -300px;
 }
 
 .divEsquerda img{
-  height: 330px;
-  width: 330px;
-  margin-left: 30px;
+  height: 35%;
+  width: 35%;
+  margin-left: 5%;
 }
 
 .divDireita h2{
-  font-size: 25px;
+  font-size: 1.6em;
   color: white;
   float: right;
-  margin-left: 30px;
-  width: 100px;
+  margin-left: 5%;
+  width: 10%;
 }
 
 .divEsquerda h2{
-  font-size: 25px;
+  font-size: 1em;
   color: white;
   float: right;
   margin-left: -300px;
@@ -80,20 +80,20 @@ h1 {
 
 .divDireita p {
   color: white;
-  font-size: 20px;
-  width: 400px;
-  margin-top: 50px;
+  font-size: 1em;
+  width: 40%;
+  margin-top: 3%;
   float: right;
   margin-left: -100px;
 }
 
 .divEsquerda p {
   color: white;
-  font-size: 20px;
-  width: 400px;
-  margin-top: 50px;
+  font-size: 1em;
+  width: 40%;
+  margin-top: 3%;
   float: right;
-  margin-left: -95px;
+  margin-left: -100px;
 }
 
 
@@ -105,7 +105,7 @@ h1 {
 }
 
 .linha{
-    width: 1200px;
+    width: 50%px;
     height: 2px;
 }
 
@@ -131,7 +131,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 700px;
+    width: 50%;
   }
   
   .slider {
@@ -139,7 +139,7 @@ h1 {
     transition: opacity .2s;
     position: absolute;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 2%;
   }
   
   .on {
@@ -147,16 +147,16 @@ h1 {
   }
   
   #prev-button, #next-button {
-    width: 30px;
-    height: 30px;
+    width: 5%;
+    height: 5%;
     border: none;
     background-color: transparent;
     cursor: pointer;
   }
   
   #prev-button img, #next-button img {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
   }
   
   #prev-button {

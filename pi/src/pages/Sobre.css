@@ -18,16 +18,16 @@
 }
 
 .div1 p {
-    margin-top: 50px;
-    width: 500px;
+    margin-top: 5%;
+    width: 35%;
     color: #fff;
     position: absolute;
     float: left;
 }
 
 .div2 p {
-    margin-top: 50px;
-    width: 500px;
+    margin-top: 5%;
+    width: 35%;
     color: #fff;
     position: absolute;
     float: right;
@@ -36,15 +36,15 @@
 
 .img1 {
     float: right;
-    width: 400px;
-    height: 400px;
+    width: 40%;
+    height: 50%;
     margin-right: 10%;
     margin-left: 60%;
 }
 
 .img2 {
     float: left;
-    width: 400px;
-    height: 400px;
+    width: 40%;
+    height: 40%;
     margin-left: 0%;
 }
