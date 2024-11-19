@@ -2,9 +2,9 @@
 .elemento{
     color: #fff;
 }
-
-.info{
-    color: #2be721;
+.elemento p {
+	color: #fff;
+	font-size: 0.7em;
 }
 
 * {
@@ -17,7 +17,7 @@ main {
 }
 
 p:last-child{
-	font-size:.8em;	
+	font-size:.7em;	
 }
 
 main{
@@ -36,7 +36,8 @@ main{
 }
 
 section{
-	height:5em;
+	height:4.5em;
+	width: 4.5em;
 	background: black;
 	border:.125rem solid;
 	border-radius:0.25rem;	
@@ -58,6 +59,7 @@ span{
 .tabela {
 	display: flex;
 	align-items: center;
+	width: 100%;
 }
 
 @media only screen and (min-width:80em){
@@ -71,7 +73,7 @@ span{
 		
 		#grid-container{
 			display:grid;
-			grid-template-columns:repeat(18, 5em);
+			grid-template-columns:repeat(18, 4.5em);
 			grid-gap:.05em;	
 		}
 			
@@ -97,11 +99,11 @@ span{
 		
 		section{
 			margin:0;
+			transition: ease-in-out .25s;
 		}
 			
 		section:hover{
-			transition:.2s;
-			transform:scale(1.5);
+			transform:scale(1.1);
 			cursor:pointer;
 			z-index:2;
 		}
