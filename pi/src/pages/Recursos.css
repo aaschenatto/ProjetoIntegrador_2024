@@ -16,13 +16,10 @@ main {
     text-align: center;
 }
 
-/* TYPOGRAPHY STYLES */
 p:last-child{
 	font-size:.8em;	
 }
 
-
-/* GRID CONTAINER STYLES */
 main{
 	margin:auto;
 	max-width:45em;
@@ -38,8 +35,6 @@ main{
 	display:none;	
 }
 
-
-/* GRID CELL */
 section{
 	height:5em;
 	background: black;
@@ -60,40 +55,10 @@ span{
 	left:.5em;	
 }
 
-
-/* FOOTER */
-footer{
-	font-size:.8em;
-	text-align:left;	
-	flex-basis:13.5rem;
-	margin:-.25em 0 0 1em;
+.tabela {
+	display: flex;
+	align-items: center;
 }
-
-ul{
-	display:flex;
-	flex-wrap:wrap;
-  position:sticky;
-  top:1em;
-}
-
-li{
-	flex-basis:100%;
-	line-height:1.25;
-	margin-bottom:1em;	
-}
-
-li:before{
-	content:' ';
-	display:inline-block;
-	width:1em;
-	height:1em;
-	border:.125em solid;
-	border-radius:.125rem;	
-	margin-right:.5em;
-	position:relative;
-	top:.25em;
-}
-
 
 @media only screen and (min-width:80em){
 	@supports (display:grid){
@@ -140,34 +105,11 @@ li:before{
 			cursor:pointer;
 			z-index:2;
 		}
-		
-		
-		/* FOOTER */
-	
-		footer{
-			font-size:1em;
-			width:100%;
-			margin:2em 0;
-		}
-		
-		ul{
-			justify-content:center;
-		}
-		
-		li{
-			flex-basis:auto;
-			margin-bottom:0;	
-		}
-		
-		li + li{
-			margin-left:2em;	
-		}	
 	}
 }
 
 @media only screen and (min-width:102.5em){
 	/* GLOBAL STYLES */
-		
 		body{
 			font-size:.75em;	
 		}	
