@@ -9,39 +9,47 @@ h1 {
     justify-content: left;
 }
 
+
 .div1 h2 {
-    color: #ffffff;
-    float: left;
+    color: #fff;
+    position: absolute;
+    float: left; 
 }
 
 .div2 h2 {
-    color: #ffffff;
+    color: #fff;
+    position: absolute;
     margin-left: 40%;
 }
 
 .div1 p {
-    width: 10%;
-    color: #ffffff;
+    margin-top: 3%;
+    width: 35%;
+    color: #fff;
+    position: absolute;
     float: left;
+    font-size: 18px;
 }
 
 .div2 p {
-    width: 15%;
+    margin-top: 3%;
+    width: 35%;
     color: #fff;
+    position: absolute;
     float: right;
     margin-left: 40%;
+    font-size: 18px;
 }
 
 .img1 {
     float: right;
-    width: 100%;
+    width: 450px;
     margin-right: 10%;
     margin-left: 60%;
 }
 
 .img2 {
     float: left;
-    width: 80%;
-    height: 80%;
+    width: 450px;
     margin-left: 0%;
 }
