@@ -24,7 +24,7 @@ function Tecnologias() {
       </div>
 
 
-      <p className='titulo1'>Linha Do Tempo De Tecnologias</p>
+      <h2 className='titulo1'>Linha Do Tempo De Tecnologias</h2>
 
       <div className='divEsquerda'>
         <h2>Titulo W</h2>
@@ -32,7 +32,7 @@ function Tecnologias() {
         <img src='../../public/bannerInicio.jpg' />
       </div>
 
-      <p className='titulo1'>Vídeos Relacionados As Tecnologias</p>
+      <h2 className='titulo1'>Vídeos Relacionados As Tecnologias</h2>
 
       <div className='divDireita'>
         <p></p>
