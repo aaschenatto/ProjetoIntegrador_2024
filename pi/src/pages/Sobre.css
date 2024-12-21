@@ -1,1 +1,45 @@
+.div1, .div2 {
+    width: 80%;
+    margin: 2% 10%;
+    display: inline-flex;
+    justify-content: left;
+}
 
+.div1 h2 {
+    color: #fff;
+    position: absolute;
+    float: left; 
+}
+.div2 h2 {
+    color: #fff;
+    position: absolute;
+    margin-left: 40%;
+}
+.div1 p {
+    margin-top: 5%;
+    width: 35%;
+    color: #fff;
+    position: absolute;
+    float: left;
+}
+.div2 p {
+    margin-top: 5%;
+    width: 35%;
+    color: #fff;
+    position: absolute;
+    float: right;
+    margin-left: 40%;
+}
+.img1 {
+    float: right;
+    width: 40%;
+    height: 50%;
+    margin-right: 10%;
+    margin-left: 60%;
+}
+.img2 {
+    float: left;
+    width: 40%;
+    height: 40%;
+    margin-left: 0%;
+}
