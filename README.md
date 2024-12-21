@@ -4,7 +4,7 @@ Para rodar o programa você deve ter o NodeJs na versão v20.18.0
 
 Então deve-se instalar o arquivo no github e extraí-lo
 
-Depois utilize o VScode para abrir a pasta ProjetoIntegrador_2024-Main e inicie um terminal powershell
+Depois utilize o VScode para abrir a pasta ProjetoIntegrador_2024-Main e inicie um terminal powershell (se estiver tendo problemas use o cmd)
 
 No terminal, digite o coando "cd pi" para acessar a pasta pi
 
