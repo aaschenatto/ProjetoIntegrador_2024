@@ -12,7 +12,7 @@ function Footer() {
     <p className='titulonews'>Quer receber notícias relacionadas ao nosso conteúdo?</p>
     <p className='titulonews'>Preencha o campo abaixo com seu e-mail:</p>
     <input placeholder='E-mail...'></input>
-    <button>Enviar</button>
+    <button className='botao'>Enviar</button>
   </div>
 
   <div className='redes'>
