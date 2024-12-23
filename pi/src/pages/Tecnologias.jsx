@@ -1,8 +1,33 @@
 import './Tecnologias.css'
 import '../../script.js'
+import React, { useState, useEffect } from 'react';
 
 function Tecnologias() {
-  
+
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const slides = [
+    '../../public/bannerTecnologias.jpg',
+    '../../public/bannerInicio.jpg',
+    '../../public/bannerRecursos.jpg',
+    // Add more image paths as needed
+  ];
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
+    }, 5000); // Change slide every 5 seconds
+
+    return () => clearTimeout(timer);
+  }, [currentSlide, slides.length]);
+
+  const nextSlide = () => {
+    setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide((prevSlide) => (prevSlide - 1 + slides.length) % slides.length);
+  };
+
   return (
     <>
       <div className='banner'>
@@ -10,13 +35,19 @@ function Tecnologias() {
         <img src='../../public/bannerTecnologias.jpg' />
       </div>
 
-      <div className="container-slider">
-        <button id="prev-button"><img src='../../public/arrow.png' alt="prev-button" /></button>
-        <div className="container-images">
-          <img src='../../public/bannerInicio.jpg' alt="img2" className="slider on" />
-          <img src='../../public/bannerInicio.jpg' alt="img1" className="slider" />
+      <div className='carousel-container'>
+        <div className='carousel'>
+          {slides.map((slide, index) => (
+            <img
+              key={index}
+              src={slide}
+              alt={`Slide ${index + 1}`}
+              className={`carousel-image ${index === currentSlide ? 'active' : ''}`}
+            />
+          ))}
+          <button className='carousel-button prev' onClick={prevSlide}>&#10094;</button>
+          <button className='carousel-button next' onClick={nextSlide}>&#10095;</button>
         </div>
-        <button id="next-button"><img src='../../public/arrow.png' alt="next-button" /></button>
       </div>
 
       <div className='divlinha'>
@@ -36,7 +67,7 @@ function Tecnologias() {
 
       <div className='divDireita'>
         <p></p>
-        <img src='../../public/bannerInicio.jpg'/>
+        <img src='../../public/bannerInicio.jpg' />
         <h2>Titulo F</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum.</p>
         <p></p>
@@ -47,7 +78,7 @@ function Tecnologias() {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum.</p>
         <img src='../../public/bannerInicio.jpg' />
       </div>
-   
+
 
     </>
   )
