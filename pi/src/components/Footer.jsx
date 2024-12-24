@@ -1,6 +1,12 @@
 import './Footer.css'
+import { useState } from "react";
 
-function Footer() {  
+function Footer({ setCurrentPage }) {  
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
     <>
@@ -17,11 +23,11 @@ function Footer() {
 
   <div className='redes'>
     <div className='insta'>
-      <a href="https://www.instagram.com/mineracao.espacial/" className='nome'><p className='nome'>@mineracao.espacial</p></a>
+      <a href="https://www.instagram.com/mineracao.espacial/" className='nome'>@mineracao.espacial</a>
       <img className='logoRede' src='../../public/insta.png'/>
     </div>
     <div className='email'>
-      <p className='nome'> mineracaoespacial@gmail.com</p>
+    <a onClick={() => {setCurrentPage(6); toggleMenu()}} className='nome'>mineracaoespacial@gmail.com</a>
       <img className='logoRede' src='../../public/email.png'/>
     </div>
     </div>
