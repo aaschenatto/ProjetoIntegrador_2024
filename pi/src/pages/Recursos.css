@@ -1,10 +1,31 @@
-/* FOREGROUND COLOR VARIABLES */
 .elemento{
     color: #fff;
+	cursor: default;
 }
-.elemento p {
-	color: #fff;
+.elemento-clicavel{
+	color:#37de0d;
+	cursor: pointer;
+	z-index: 999;
+}
+.elemento-clicavel:hover{
+	transform: scale(1.2);
+}
+.elemento-clicavel h2 {
+	color: #37de0d;
+}
+.elemento p, .elemento-clicavel p {
 	font-size: 0.7em;
+}
+.informação-elemento{
+	width: 100%;
+	background-color: red;
+}
+
+.titulo{
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
 }
 
 * {
@@ -12,18 +33,15 @@
 	box-sizing:border-box;
 }
 
-main {
-    text-align: center;
-}
-
-p:last-child{
+/* p:last-child{
 	font-size:.7em;	
-}
+} */
 
 main{
 	margin:auto;
 	max-width:45em;
 	display:flex;
+	text-align: center;
 }
 
 #grid-container{
@@ -61,6 +79,46 @@ span{
 	align-items: center;
 	width: 100%;
 }
+@keyframes transiçãoelemento {
+	0% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 100;
+	}
+  }
+.elemento-clique {
+	animation: 1s ease-in-out 0s 1 transiçãoelemento;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	width: 100%;
+	display: inline-flex;
+}
+.elemento-clique section {
+	color: rgb(255, 251, 12);
+	height:6em;
+	width: 6em;
+}
+.elemento-clique h2{
+	color: rgb(255, 251, 12);
+}
+
+.elemento-clique span, .elemento-clique p{
+	font-size: 1.2em;
+}
+.texto-elemento {
+	margin-left: 100px;
+	display: flex;
+	flex-direction: column;
+	float: right;
+	width: 600px;
+	color: #fff;
+}
+.texto-elemento h2{
+	color: #fff;
+}
+
+
 
 @media only screen and (min-width:80em){
 	@supports (display:grid){
@@ -95,24 +153,10 @@ span{
 		}
 			
 		
-		/* GRID CELL */
-		
 		section{
 			margin:0;
 			transition: ease-in-out .25s;
 		}
-			
-		section:hover{
-			transform:scale(1.1);
-			cursor:pointer;
-			z-index:2;
-		}
 	}
 }
 
-@media only screen and (min-width:102.5em){
-	/* GLOBAL STYLES */
-		body{
-			font-size:.75em;	
-		}	
-}
