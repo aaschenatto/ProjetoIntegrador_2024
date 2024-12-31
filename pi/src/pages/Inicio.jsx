@@ -1,11 +1,25 @@
-import './Inicio.css'
+import { useState, useEffect } from 'react';
+import './Inicio.css';
 
 function Inicio() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    handleResize(); 
+    window.addEventListener('resize', handleResize);
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
     <>
       <div className='banner'>
-          <h1>MINERAÇÃO <br/> ESPACIAL</h1>
-          <img src='../../public/bannerInicio.jpg'/>
+      {!isMobile && <h1>MINERAÇÃO <br /> ESPACIAL</h1>}
+      <img src="../../public/bannerInicio.jpg" alt="Banner Mineração Espacial" />
       </div>
 
       <div className='div1'>

@@ -53,3 +53,68 @@ h1 {
     width: 450px;
     margin-left: 0%;
 }
+
+/*----------mobile---------*/
+
+@media (max-width: 768px) {
+    
+    h1 {
+        color: #ffffff;
+    }
+    
+    .div1, .div2 {
+        width: 80%;
+        margin: 2% 10%;
+        display: flex;
+        justify-content: left;
+    }
+    
+    
+    .div1 h2 {
+        color: #fff;
+        position: absolute;
+        float: left; 
+    }
+    
+    .div2 h2 {
+        color: #fff;
+        position: absolute;
+        margin-left: 40%;
+    }
+    
+    .div1 p {
+        margin-top: 3%;
+        width: 35%;
+        color: #fff;
+        position: absolute;
+        float: left;
+        font-size: 18px;
+    }
+    
+    .div2 p {
+        margin-top: 3%;
+        width: 35%;
+        color: #fff;
+        position: absolute;
+        float: right;
+        margin-left: 40%;
+        font-size: 18px;
+    }
+    
+    .img1 {
+        display: none;
+        float: right;
+        width: 450px;
+        margin-right: 10%;
+        margin-left: 60%;
+    }
+    
+    .img2 {
+        display: none;
+        float: left;
+        width: 450px;
+        margin-left: 0%;
+    }
+    
+
+}  
