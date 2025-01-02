@@ -16,10 +16,6 @@
 .elemento p, .elemento-clicavel p {
 	font-size: 0.7em;
 }
-.informação-elemento{
-	width: 100%;
-	background-color: red;
-}
 
 .titulo{
     font-size: 3em;
@@ -32,10 +28,6 @@
     list-style:none;
 	box-sizing:border-box;
 }
-
-/* p:last-child{
-	font-size:.7em;	
-} */
 
 main{
 	margin:auto;
@@ -65,6 +57,7 @@ section{
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
+
 }
 
 span{
@@ -118,41 +111,30 @@ span{
 	color: #fff;
 }
 
-
-
 @media only screen and (min-width:80em){
 	@supports (display:grid){
-		/* GRID CONTAINER STYLES */
-	
 		main{
 			max-width:130.5em;
 			display:block;
 		}
-		
 		#grid-container{
 			display:grid;
 			grid-template-columns:repeat(18, 4.5em);
 			grid-gap:.05em;	
-		}
-			
+		}	
 		.col-span16{
 			grid-column:span 16;
-		}
-			
+		}	
 		.col-span10{
 			grid-column:span 10;
-		}
-			
+		}	
 		.col-span3{
 			grid-column:span 3;
 		}
-			
 		.col-hidden{
 			display:block;
 			visibility:hidden;
 		}
-			
-		
 		section{
 			margin:0;
 			transition: ease-in-out .25s;
@@ -160,3 +142,30 @@ span{
 	}
 }
 
+
+@media screen and (max-width: 600px) {
+	.elemento {
+		display: none;
+	}
+	.titulo{
+		font-size: 2em;
+	}
+	#grid-container{
+		display: inline-flex;
+		grid-template-columns:repeat(18, 4.5em);
+		grid-gap:.6em;	
+	}
+	.elemento-clique {
+		display: grid;
+		width: 100vw;
+		text-align: center;
+	}
+	.elemento-clique .elemento {
+		display: none;
+	}
+	.texto-elemento {
+		margin-left: 0;
+		width: 90vw;
+		margin: 0 5vw;
+	}
+  }
