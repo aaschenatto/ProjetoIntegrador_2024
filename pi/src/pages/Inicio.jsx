@@ -18,7 +18,36 @@ function Inicio() {
   return (
     <>
       {isMobile ? (
-        <p></p>
+        <div>
+          <div className='banner'>
+            <h1>MINERAÇÃO <br /> ESPACIAL</h1>
+            <img src="../../public/bannerInicio.jpg" alt="Banner Mineração Espacial" />
+            <br /><br /><br />
+            
+          <div className='card'>
+            <h2>Por Que Explorar o Espaço?</h2>
+            <p className='textodocard'>A busca por soluções inovadoras para suprir a crescente demanda por recursos minerais tem levado a humanidade a expandir seus horizontes para além da Terra...</p>
+            <img className='imagemdocard' src='../../public/nave.png'/>
+          </div>
+          <br /><br /><br /><br /><br />
+          <div className='card'>
+            <h2>O Planeta Marte</h2>
+            <p className='textodocard'>Marte é o segundo menor planeta do sistema solar e assume a quarta posição depois do sol. Ele se classifica como planeta rochoso...</p>
+            <img className='imagemdocard2' src='../../public/marte.png'/>
+          </div>
+          <br /><br /><br /><br /><br />
+          <div className='card'>
+            <h2>Asteroides</h2>
+            <p className='textodocard'>Um asteroide pode ser definido como um pedaço de rocha que orbita pelo sistema solar, e geralmente se encontra no cinturão de asteroides entre Júpiter e Marte..</p>
+            <img className='imagemdocard2' src='../../public/asteroide.png'/>
+          </div><div className='card'>
+          <br /><br /><br /><br /><br />
+            <h2>Lua Terrestre</h2>
+            <p className='textodocard'>Um asteroide pode ser definido como um pedaço de rocha que orbita pelo sistema solar, e geralmente se encontra no cinturão de asteroides entre Júpiter e Marte..</p>
+            <img className='imagemdocard2' src='../../public/lua.png'/>
+          </div>
+          </div>
+        </div>
       ) : (
         
         <div>
