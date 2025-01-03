@@ -24,7 +24,7 @@ function Desafios() {
       </div>
 
       <div className="int">
-        <h2 className="tituloInt">Desafios e suas soluções</h2>
+        <h2 className="tituloInt">Desafios E Suas Soluções</h2>
 
         <div className="col1">
           <p className="txtInt">
