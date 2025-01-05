@@ -151,8 +151,8 @@ span{
 		font-size: 2em;
 	}
 	#grid-container{
-		display: inline-flex;
-		grid-template-columns:repeat(18, 4.5em);
+		display: grid;
+		grid-template-columns:repeat(3, 4.5em);
 		grid-gap:.6em;	
 	}
 	.elemento-clique {
@@ -162,6 +162,9 @@ span{
 	}
 	.elemento-clique .elemento {
 		display: none;
+	}
+	.elemento-clicavel:hover {
+		transform: scale(1);
 	}
 	.texto-elemento {
 		margin-left: 0;
