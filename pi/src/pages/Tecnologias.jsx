@@ -6,9 +6,9 @@ function Tecnologias() {
 
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
-    '../../public/c1.jpg',
-    '../../public/c2.webp',
-    '../../public/c3.jpeg',
+    '../../public/c1.jpeg',
+    '../../public/c2.jpg',
+    '../../public/c3.webp',
     '../../public/c4.jpg',
     '../../public/c5.jpg',
     '../../public/c6.jpg',
@@ -91,7 +91,7 @@ function Tecnologias() {
 
       <div className='divDireita'>
         <p></p>
-        <img src='../../public/apollo.webp' />
+        <img src='../../public/apollo.jpg' />
         <h2>1969</h2>
         <p>Apollo 11 foi um voo espacial tripulado norte-americano responsável pelo primeiro pouso na Lua. Os astronautas Neil Armstrong e Buzz Aldrin alunissaram o módulo lunar Eagle em 20 de julho de 1969 às 20h17min UTC. Armstrong tornou-se o primeiro humano a pisar na superfície lunar seis horas depois já no dia 21, seguido por Aldrin vinte minutos depois. Os dois passaram por volta de duas horas e quinze minutos fora da espaçonave e coletaram 21,5 quilogramas de material para trazer de volta à Terra.</p>
         <p></p>
