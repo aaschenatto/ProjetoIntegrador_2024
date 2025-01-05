@@ -36,3 +36,11 @@ h2 {
   color: #fff;
 }
 
+@media (max-width: 768px) {
+
+  .banner h1 {
+    font-size: 65px;
+    height: 40%;
+  }
+
+}
