@@ -36,11 +36,20 @@ h2 {
   color: #fff;
 }
 
+
 @media (max-width: 768px) {
 
   .banner h1 {
     font-size: 55px;
     height: 40%;
   }
+  * {
+    overflow-x: hidden;
+  }
+  .banner img {
+    width: 100vw;
+    height: 100vh;
+  }
 
 }
+
