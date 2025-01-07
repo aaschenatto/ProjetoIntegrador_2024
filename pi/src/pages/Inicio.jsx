@@ -26,24 +26,24 @@ function Inicio() {
             
           <div className='card'>
             <h2>Por Que Explorar o Espaço?</h2>
-            <p className='textodocard'>A busca por soluções inovadoras para suprir a crescente demanda por recursos minerais tem levado a humanidade a expandir seus horizontes para além da Terra...</p>
+            <p className='textodocard'>A exploração do espaço busca responder questões fundamentais sobre nossa existência e o universo. Ao olharmos para além do nosso planeta, buscamos entender nossas origens, descobrir se há vida fora da Terra e encontrar soluções para desafios globais, como mudanças climáticas e escassez de recursos.</p>
             <img className='imagemdocard' src='../../public/nave.png'/>
           </div>
           <br /><br /><br /><br /><br />
           <div className='card'>
-            <h2>O Planeta Marte</h2>
-            <p className='textodocard'>Marte é o segundo menor planeta do sistema solar e assume a quarta posição depois do sol. Ele se classifica como planeta rochoso...</p>
+            <h2>Expansão Científica</h2>
+            <p className='textodocard'>A investigação espacial nos permite compreender fenômenos como a formação de estrelas, planetas e galáxias. Além disso, ela oferece insights sobre a origem do universo e as condições necessárias para a vida, enriquecendo nosso entendimento do cosmos e inspirando futuras gerações de cientistas.</p>
             <img className='imagemdocard2' src='../../public/marte.png'/>
           </div>
           <br /><br /><br /><br /><br />
           <div className='card'>
-            <h2>Asteroides</h2>
-            <p className='textodocard'>Um asteroide pode ser definido como um pedaço de rocha que orbita pelo sistema solar, e geralmente se encontra no cinturão de asteroides entre Júpiter e Marte..</p>
+            <h2>Desenvolvimento de Tecnologias Avançadas</h2>
+            <p className='textodocard'>A necessidade de superar os desafios do espaço impulsiona inovações tecnológicas com aplicações práticas no cotidiano. Satélites, sistemas de comunicação, GPS e avanços médicos são exemplos diretos de benefícios gerados por essa busca.</p>
             <img className='imagemdocard2' src='../../public/asteroide.png'/>
           </div><div className='card'>
           <br /><br /><br /><br /><br />
-            <h2>Lua Terrestre</h2>
-            <p className='textodocard'>Um asteroide pode ser definido como um pedaço de rocha que orbita pelo sistema solar, e geralmente se encontra no cinturão de asteroides entre Júpiter e Marte..</p>
+            <h2>Garantia do Futuro da Humanidade</h2>
+            <p className='textodocard'>Com o crescimento populacional e o esgotamento dos recursos da Terra, explorar e colonizar outros planetas pode ser uma solução para garantir a sobrevivência da humanidade a longo prazo. O espaço oferece possibilidades de recursos ilimitados e novas fronteiras para expansão.</p>
             <img className='imagemdocard2' src='../../public/lua.png'/>
           </div>
           </div>
