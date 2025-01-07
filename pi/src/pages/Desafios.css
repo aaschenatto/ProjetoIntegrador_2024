@@ -98,4 +98,7 @@
     width: 80%;
     margin-left: 10%;
   }
+  .tituloInt {
+    font-size: 2em;
+  }
 }
