@@ -162,3 +162,39 @@ h1 {
   height: 100%;
 }
   /* fim do estilo do carrossel */
+
+  @media (max-width: 768px) {
+    h2 {
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    .card .imagemdocard{
+        height: 250px;
+        margin-right: 10px;
+        margin-top: 7%;
+    }
+    .card .textodocard{
+        color: white;
+        text-align: justify;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        font-size: 18px;
+    }
+
+    .card .imagemdocard2{
+        height: 370px;
+        margin-right: 10px;
+        margin-top: 7%;
+    }
+
+    .carousel {
+      margin-top: 50px;
+      position: relative;
+      width: 80%;
+      height: 350px; 
+      overflow: hidden;
+    }
+
+}
